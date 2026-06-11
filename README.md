@@ -26,4 +26,5 @@ The component exposes two primary properties (with both get and set accessors) d
 * CurrentSelection: Used to retrieve the currently selected option or to programmatically/declaratively set the active selection in the ComboBox.
 
 ⚠️ Critical XAML Sequence Rule:
-    For the initialization to function properly within a XAML file, SelectionOptionsSet must be declared first, followed by CurrentSelection. If this specific sequence is violated, CurrentSelection will fail to work.
+
+For the initialization to function properly within a XAML file, SelectionOptionsSet must be declared first, followed by CurrentSelection. If this specific sequence is violated, CurrentSelection will fail to work.
