@@ -14,9 +14,9 @@ Key Features & Behavior:
 
 * Data Source Initialization: The control offers two methods for populating its selection list using the overloaded ValueComboBox function:
 
- * ValueComboBox(string[] D) – populates the list directly using values passed from a string array.
+     * ValueComboBox(string[] D) – populates the list directly using values passed from a string array.
 
- * ValueComboBox(int WhichCollection) – loads one of the pre-configured, built-in collections based on the provided integer index.
+     * ValueComboBox(int WhichCollection) – loads one of the pre-configured, built-in collections based on the provided integer index.
 
 Properties & XAML Syntax (API)
 The component exposes two primary properties (with both get and set accessors) designed for use in code-behind and XAML declarations:
